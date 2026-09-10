@@ -46,7 +46,7 @@ nav {
 }
 
 .logo{
-    align-items: fles-start;
+    align-items: flex-start;
 }
 
 .nav-links {
@@ -81,7 +81,7 @@ background:rgb(30, 86, 42);
 transition: width 0.3s;
 }
 
-.nav-links a:hover::after {
+.nav-links a:hover::after { /*debugged with Claude Sonnet 5*/
     width: 100%;
 }
 /* code for navigation styling provided by Aqsa */
@@ -167,7 +167,8 @@ fieldset input {
 .form-row > p {
     flex: 1 1 150px;
 }
-button { /* styles the buttons with background color, text color, padding, border radius, font size, border, cursor, and margin */
+button {
+    /* Styles all buttons */
     padding: 0.7rem 2rem;
     border-radius: 20px;
     font-size: 1rem;
@@ -175,20 +176,28 @@ button { /* styles the buttons with background color, text color, padding, borde
     cursor: pointer;
     margin-right: 1rem;
 }
-button[type="submit"] { /* styles the submit button with background color and text color */
+
+button[type="submit"] {
+    /* Styles the submit button */
     background-color: #1e664c;
     color: #fcffea;
 }
-button[type="submit"]:hover { /* changes the background color of the submit button when hovered over */
+
+button[type="submit"]:hover {
+    /* Changes submit button when hovered */
     background-color: #164c39;
 }
-button[type="reset"] { /* styles the reset button with background color and text color */
+
+button[type="reset"] {
+    /* Styles the reset button */
     background-color: #fcffea;
     color: #2F4F4F;
 }
-button[type="reset"]:hover { /* changes the background color of the reset button when hovered over */
-    background-color: #2F4F4F;                  /* The button section made with the assistance of Claude Sonnet 5 */
-    color: #fcffea;                     
+
+button[type="reset"]:hover {
+    /* Changes reset button when hovered */
+    background-color: #2F4F4F;
+    color: #fcffea;
 }
 
 
