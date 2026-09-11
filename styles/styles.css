@@ -21,11 +21,10 @@ description: styles for the MoneyMaster website
     --muted: #6b7a5e;
     --radius: 20px;
 }
-
 @font-face {
     font-family: "Saint George";
-    src: url("/fonts/saintgeorge.ttf") format("truetype");
-    font-weight: normal;
+    src: url("../fonts/saintgeorge.woff2") format("woff2");
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
