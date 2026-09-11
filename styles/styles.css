@@ -24,7 +24,7 @@ description: styles for the MoneyMaster website
 
 @font-face {
     font-family: "Saint George";
-    src: url("fonts/saintgeorge.ttf") format("truetype");
+    src: url("..fonts/saintgeorge.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -1416,4 +1416,9 @@ body > footer a:hover {
         display: block;
         margin: 0.75rem 0;
     }
+}
+
+.test-font {
+    font-family: "Saint George", sans-serif;
+    font-size: 50px;
 }
